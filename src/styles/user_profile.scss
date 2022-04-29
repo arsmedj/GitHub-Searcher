@@ -1,0 +1,32 @@
+.user-profile {
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  .info-block {
+    width: 500px;
+    padding: 20px 18px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    margin: 20px 0;
+    .main {
+      display: flex;
+      align-items: center;
+      img {
+        width: 125px;
+        height: 125px;
+      }
+      .text {
+        text-align: left;
+        margin-left: 50px;
+        p {
+          font-size: 20px;
+          margin-bottom: 10px;
+        }
+      }
+    }
+    .bio-text {
+      margin-top: 10px;
+    }
+  }
+}

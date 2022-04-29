@@ -1,0 +1,40 @@
+.list {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  .item:hover {
+    transition: 0.5s;
+    transform: translateX(20px);
+  }
+  .item {
+    transition: 0.5s;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    width: 600px;
+    padding: 20px 12px;
+    border: 1px solid rgb(106, 106, 106);
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    .user-info {
+      width: 30%;
+      display: flex;
+      align-items: center;
+      .name {
+        margin-left: 50px;
+      }
+      .avatar {
+        width: 70px;
+        height: 70px;
+      }
+    }
+  }
+}
