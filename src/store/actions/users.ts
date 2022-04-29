@@ -1,4 +1,4 @@
-import axios, { AxiosError } from "axios";
+import axios from "axios";
 import { Dispatch } from "redux";
 import { BASE_URL } from "../../data/constants";
 import { IUser } from "../../types/usersTypes";
