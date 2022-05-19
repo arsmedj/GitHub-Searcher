@@ -12,7 +12,7 @@ export interface IUserProfileInitialState {
 }
 
 export interface IUser {
-  login: number;
+  login: number | null;
   id: number;
   node_id: string;
   avatar_url: string;
